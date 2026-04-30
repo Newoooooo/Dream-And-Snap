@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream and Snap Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="home">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">
+          <img src="logo.png" alt="Dream and Snap logo" class="brand-logo" />
+          <span class="brand-name">Dream and Snap</span>
+        </a>
+        <nav class="site-nav" id="site-nav">
+          <a href="#home">Home</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#availability">Availability</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a
+            class="btn btn-primary"
+            href="https://www.facebook.com/rrdeguiaphotography"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Book Now
+          </a>
+          <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Photography Studio</p>
+            <h1>Capture every milestone with Dream and Snap.</h1>
+            <p class="lead">
+              A warm, creative studio experience for weddings, birthdays, portraits, and
+              dream sessions. Browse packages, check availability, and secure your date
+              with a simple down payment.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://www.facebook.com/rrdeguiaphotography"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Book Your Shoot
+              </a>
+              <a class="btn btn-ghost" href="pricing.html">See Packages</a>
+            </div>
+            <div class="hero-highlights">
+              <div>
+                <span class="stat">1200+</span>
+                <span>Sessions captured</span>
+              </div>
+              <div>
+                <span class="stat">4.9/5</span>
+                <span>Average rating</span>
+              </div>
+              <div>
+                <span class="stat">Since 2016</span>
+                <span>Trusted local studio</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card">
+              <p class="hero-card-title">Featured Package</p>
+              <h3>Deluxe Wedding Prenup</h3>
+              <p class="hero-card-meta">Event | 3 hours</p>
+              <div class="hero-card-footer">
+                <span class="price">P40,000</span>
+                <a
+                  class="btn btn-secondary"
+                  href="https://www.facebook.com/rrdeguiaphotography"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+            <div class="hero-gallery">
+              <div class="frame"></div>
+              <div class="frame"></div>
+              <div class="frame"></div>
+              <div class="frame"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Studio Highlights</p>
+            <h2>Event and studio sessions with a warm, documentary feel.</h2>
+          </div>
+          <div class="pricing-tabs section-tabs">
+            <button class="tab is-active" type="button" data-filter="event">Events</button>
+            <button class="tab" type="button" data-filter="studio">Studio</button>
+          </div>
+          <div class="gallery-filter">
+            <div class="gallery-block" data-filter-item data-category="event">
+              <div class="gallery-alt-list">
+                <article class="gallery-row">
+                  <div class="gallery-media">
+                    <div class="gallery-media-grid">
+                      <img src="photos/event/Wedding/1.jpg" alt="Wedding photo highlight" />
+                      <img src="photos/event/Wedding/2.jpg" alt="Wedding photo highlight" />
+                    </div>
+                  </div>
+                  <div class="gallery-copy">
+                    <h3>Wedding Photography Coverage</h3>
+                    <p>
+                      Elegant wedding photography, prenup sessions, and ceremony coverage
+                      with a documentary feel and timeless portraits.
+                    </p>
+                  </div>
+                </article>
+                <article class="gallery-row reverse">
+                  <div class="gallery-media">
+                    <div class="gallery-media-grid">
+                      <img
+                        src="photos/event/Birthday/Kids%20Fast%20Food.png"
+                        alt="Kids fast food birthday party"
+                      />
+                      <img
+                        src="photos/event/Birthday/BasicBirthday.jpg"
+                        alt="Kids birthday party"
+                      />
+                      <img
+                        src="photos/event/Birthday/7thBirthday.jpg"
+                        alt="Seventh birthday celebration"
+                      />
+                      <img src="photos/event/Birthday/Adult.jpg" alt="Adult birthday party" />
+                    </div>
+                  </div>
+                  <div class="gallery-copy">
+                    <h3>Birthday Party Photography</h3>
+                    <p>
+                      Kiddie parties, 7th birthdays, and adult celebrations captured with
+                      bright, joyful event photography coverage.
+                    </p>
+                  </div>
+                </article>
+                <article class="gallery-row">
+                  <div class="gallery-media">
+                    <div class="gallery-media-grid">
+                      <img src="photos/event/Birthday/Debut.jpg" alt="Debut event" />
+                    </div>
+                  </div>
+                  <div class="gallery-copy">
+                    <h3>Debut Photography</h3>
+                    <p>
+                      Dream concepts and milestone storytelling designed to celebrate a
+                      debut with style, friends, and family.
+                    </p>
+                  </div>
+                </article>
+                <article class="gallery-row reverse">
+                  <div class="gallery-media">
+                    <div class="gallery-media-grid">
+                      <img src="photos/event/Baptism/Baptism.jpg" alt="Baptism celebration" />
+                    </div>
+                  </div>
+                  <div class="gallery-copy">
+                    <h3>Baptism Photography</h3>
+                    <p>
+                      Gentle, family-first coverage that follows the ceremony and reception
+                      with intimate, candid portraits.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="gallery-block" data-filter-item data-category="studio">
+              <p class="gallery-note">Studio photos are coming soon. Here are recent previews.</p>
+              <div class="gallery-alt-list">
+                <article class="gallery-row">
+                  <div class="gallery-media">
+                    <div class="gallery-media-grid">
+                      <img
+                        src="photos/studio/AdultsandCouples/1.jpg"
+                        alt="Adults and couples studio portrait"
+                      />
+                    </div>
+                  </div>
+                  <div class="gallery-copy">
+                    <h3>Adults &amp; Couples Studio Portraits</h3>
+                    <p>
+                      Clean lighting, relaxed direction, and polished studio portraits for
+                      couples and adult sessions.
+                    </p>
+                  </div>
+                </article>
+                <article class="gallery-row reverse">
+                  <div class="gallery-media">
+                    <div class="gallery-media-grid">
+                      <img src="photos/studio/Family/Family.jpg" alt="Family studio portrait" />
+                      <img src="photos/studio/Family/Family2.jpg" alt="Family studio portrait" />
+                    </div>
+                  </div>
+                  <div class="gallery-copy">
+                    <h3>Family Portrait Studio Sessions</h3>
+                    <p>
+                      Cozy family portrait sessions with studio lighting, clean backdrops,
+                      and expressive group photography.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section packages-preview" id="packages">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Packages</p>
+            <h2>Browse pricing and inclusions for every session.</h2>
+          </div>
+          <div class="package-preview-grid">
+            <article class="package-preview-card">
+              <h3>Event Photography Coverage</h3>
+              <p>
+                Weddings, baptisms, debuts, and birthday celebrations with full event
+                coverage and optional add-ons.
+              </p>
+              <a class="btn btn-outline" href="pricing.html">View Event Pricing</a>
+            </article>
+            <article class="package-preview-card">
+              <h3>Studio Portrait Sessions</h3>
+              <p>
+                Adults &amp; couples, family portraits, and kid-friendly studio sessions
+                with flexible backdrops.
+              </p>
+              <a class="btn btn-outline" href="pricing.html">View Studio Pricing</a>
+            </article>
+            <article class="package-preview-card">
+              <h3>Kids &amp; Pre-Debut Packages</h3>
+              <p>
+                Dream packages, themed concepts, and pre-debut storytelling for milestone
+                celebrations.
+              </p>
+              <a class="btn btn-outline" href="pricing.html">View Kids Pricing</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section availability" id="availability">
+        <div class="container availability-grid">
+          <div>
+            <p class="eyebrow">Booking Availability</p>
+            <h2>We keep the calendar light for premium attention.</h2>
+            <p class="lead">
+              Secure your preferred date with a down payment. Availability updates weekly.
+            </p>
+            <div class="availability-tags">
+              <span class="tag">Limited weekend slots</span>
+              <span class="tag">Weekday sessions open</span>
+              <span class="tag">Studio morning slots</span>
+            </div>
+            <a
+              class="btn btn-primary"
+              href="https://www.facebook.com/rrdeguiaphotography"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ask About Your Date
+            </a>
+          </div>
+          <div class="availability-cards">
+            <article class="availability-card">
+              <h3>May 3-9</h3>
+              <p>2 event slots, 4 studio slots</p>
+              <span class="status open">Available</span>
+            </article>
+            <article class="availability-card">
+              <h3>May 10-16</h3>
+              <p>1 event slot, 3 studio slots</p>
+              <span class="status tight">Limited</span>
+            </article>
+            <article class="availability-card">
+              <h3>May 17-23</h3>
+              <p>3 event slots, 5 studio slots</p>
+              <span class="status open">Available</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Contact Us</p>
+            <h2>Tell us about your dream session.</h2>
+            <p class="lead">
+              Share your preferred date, package, and location. We will respond within
+              24 hours.
+            </p>
+            <div class="contact-details">
+              <p><strong>Studio:</strong> Dream and Snap Photography</p>
+              <p><strong>Hours:</strong> 9:00 AM - 6:00 PM</p>
+              <p><strong>Social:</strong> @rrdeguiaphotography</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@email.com" />
+            </label>
+            <label>
+              Package interest
+              <input type="text" placeholder="Event, Studio, or Custom" />
+            </label>
+            <label>
+              Message
+              <textarea rows="4" placeholder="Tell us about your shoot"></textarea>
+            </label>
+            <button
+              class="btn btn-primary"
+              type="button"
+              onclick="window.open('https://www.facebook.com/rrdeguiaphotography','_blank')"
+            >
+              Send via Facebook
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <img src="logo.png" alt="Dream and Snap logo" class="brand-logo" />
+            <span class="brand-name">Dream and Snap</span>
+          </div>
+          <p>Capturing honest stories through light, color, and celebration.</p>
+        </div>
+        <div class="footer-links">
+          <a href="pricing.html">Pricing</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#availability">Availability</a>
+          <a href="https://www.facebook.com/rrdeguiaphotography" target="_blank" rel="noreferrer">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
